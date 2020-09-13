@@ -97,6 +97,7 @@
 		5637FB02250DD2C8002F6B45 /* ContactListApp */ = {
 			isa = PBXGroup;
 			children = (
+				5637FB33250DDAC8002F6B45 /* Features */,
 				5637FB03250DD2C8002F6B45 /* AppDelegate.swift */,
 				5637FB05250DD2C8002F6B45 /* SceneDelegate.swift */,
 				5637FB07250DD2C8002F6B45 /* ViewController.swift */,
@@ -123,6 +124,61 @@
 				5637FB27250DD2CA002F6B45 /* Info.plist */,
 			);
 			path = ContactListAppUITests;
+			sourceTree = "<group>";
+		};
+		5637FB33250DDAC8002F6B45 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5637FB38250DDB53002F6B45 /* Networking */,
+				5637FB34250DDAEC002F6B45 /* SignIn */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		5637FB34250DDAEC002F6B45 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				5637FB37250DDB2D002F6B45 /* ForgotPassword */,
+				5637FB36250DDB1B002F6B45 /* Login */,
+				5637FB35250DDB14002F6B45 /* Register */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		5637FB35250DDB14002F6B45 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		5637FB36250DDB1B002F6B45 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5637FB37250DDB2D002F6B45 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		5637FB38250DDB53002F6B45 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5637FB39250DDBBF002F6B45 /* Manager */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5637FB39250DDBBF002F6B45 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
