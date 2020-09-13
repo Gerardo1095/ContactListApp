@@ -178,8 +178,8 @@
 		5637FB37250DDB2D002F6B45 /* ForgotPassword */ = {
 			isa = PBXGroup;
 			children = (
-				5637FB42250DDDB6002F6B45 /* ForgotPasswordView.swift */,
 				5637FB44250DDDC9002F6B45 /* ForgotPasswordViewController.swift */,
+				5637FB42250DDDB6002F6B45 /* ForgotPasswordView.swift */,
 			);
 			path = ForgotPassword;
 			sourceTree = "<group>";
