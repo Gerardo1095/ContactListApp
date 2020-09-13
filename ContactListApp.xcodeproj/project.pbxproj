@@ -14,6 +14,12 @@
 		5637FB10250DD2CA002F6B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5637FB0E250DD2CA002F6B45 /* LaunchScreen.storyboard */; };
 		5637FB1B250DD2CA002F6B45 /* ContactListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637FB1A250DD2CA002F6B45 /* ContactListAppTests.swift */; };
 		5637FB26250DD2CA002F6B45 /* ContactListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637FB25250DD2CA002F6B45 /* ContactListAppUITests.swift */; };
+		5637FB3B250DDD55002F6B45 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637FB3A250DDD55002F6B45 /* LoginViewController.swift */; };
+		5637FB3D250DDD70002F6B45 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637FB3C250DDD70002F6B45 /* LoginView.swift */; };
+		5637FB3F250DDD87002F6B45 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637FB3E250DDD87002F6B45 /* RegisterViewController.swift */; };
+		5637FB41250DDD9B002F6B45 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637FB40250DDD9B002F6B45 /* RegisterView.swift */; };
+		5637FB43250DDDB6002F6B45 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637FB42250DDDB6002F6B45 /* ForgotPasswordView.swift */; };
+		5637FB45250DDDC9002F6B45 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637FB44250DDDC9002F6B45 /* ForgotPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		5637FB21250DD2CA002F6B45 /* ContactListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5637FB25250DD2CA002F6B45 /* ContactListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListAppUITests.swift; sourceTree = "<group>"; };
 		5637FB27250DD2CA002F6B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5637FB3A250DDD55002F6B45 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5637FB3C250DDD70002F6B45 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5637FB3E250DDD87002F6B45 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5637FB40250DDD9B002F6B45 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		5637FB42250DDDB6002F6B45 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		5637FB44250DDDC9002F6B45 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +160,8 @@
 		5637FB35250DDB14002F6B45 /* Register */ = {
 			isa = PBXGroup;
 			children = (
+				5637FB3E250DDD87002F6B45 /* RegisterViewController.swift */,
+				5637FB40250DDD9B002F6B45 /* RegisterView.swift */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -155,6 +169,8 @@
 		5637FB36250DDB1B002F6B45 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				5637FB3A250DDD55002F6B45 /* LoginViewController.swift */,
+				5637FB3C250DDD70002F6B45 /* LoginView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -162,6 +178,8 @@
 		5637FB37250DDB2D002F6B45 /* ForgotPassword */ = {
 			isa = PBXGroup;
 			children = (
+				5637FB42250DDDB6002F6B45 /* ForgotPasswordView.swift */,
+				5637FB44250DDDC9002F6B45 /* ForgotPasswordViewController.swift */,
 			);
 			path = ForgotPassword;
 			sourceTree = "<group>";
@@ -311,8 +329,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5637FB3B250DDD55002F6B45 /* LoginViewController.swift in Sources */,
 				5637FB08250DD2C8002F6B45 /* ViewController.swift in Sources */,
+				5637FB43250DDDB6002F6B45 /* ForgotPasswordView.swift in Sources */,
 				5637FB04250DD2C8002F6B45 /* AppDelegate.swift in Sources */,
+				5637FB41250DDD9B002F6B45 /* RegisterView.swift in Sources */,
+				5637FB45250DDDC9002F6B45 /* ForgotPasswordViewController.swift in Sources */,
+				5637FB3F250DDD87002F6B45 /* RegisterViewController.swift in Sources */,
+				5637FB3D250DDD70002F6B45 /* LoginView.swift in Sources */,
 				5637FB06250DD2C8002F6B45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
